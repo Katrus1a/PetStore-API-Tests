@@ -34,10 +34,16 @@ jobs:
         run: mvn clean test
 
       - name: Generate Allure Report
-        run: mvn allure:report
+        run: mvn allure:aggregate 
 
       - name: Upload Allure Report
         uses: actions/upload-artifact@v3
         with:
           name: allure-report
-          path: target/site/allure-maven-plugin
+          path: target/site/allure-report  
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-results
+          path: allure-results
