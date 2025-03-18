@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-18T09:30:21 EET" name="Surefire suite" finished-at="2025-03-18T09:30:29 EET" duration-ms="8532">
+    <groups>
+    </groups>
+    <test started-at="2025-03-18T09:30:21 EET" name="Surefire test" finished-at="2025-03-18T09:30:29 EET" duration-ms="8532">
+      <class name="com.api.tests.PetTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.tests.PetTests@485966cc]" started-at="2025-03-18T09:30:21 EET" name="setup" finished-at="2025-03-18T09:30:21 EET" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreatePet()[pri:0, instance:com.api.tests.PetTests@485966cc]" started-at="2025-03-18T09:30:21 EET" name="testCreatePet" finished-at="2025-03-18T09:30:26 EET" duration-ms="5190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testGetPet()[pri:0, instance:com.api.tests.PetTests@485966cc]" started-at="2025-03-18T09:30:26 EET" name="testGetPet" finished-at="2025-03-18T09:30:28 EET" depends-on-methods="com.api.tests.PetTests.testCreatePet" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPet -->
+        <test-method signature="testUpdatePet()[pri:0, instance:com.api.tests.PetTests@485966cc]" started-at="2025-03-18T09:30:28 EET" name="testUpdatePet" finished-at="2025-03-18T09:30:28 EET" depends-on-methods="com.api.tests.PetTests.testGetPet" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testDeletePet()[pri:0, instance:com.api.tests.PetTests@485966cc]" started-at="2025-03-18T09:30:28 EET" name="testDeletePet" finished-at="2025-03-18T09:30:29 EET" depends-on-methods="com.api.tests.PetTests.testUpdatePet" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+      </class> <!-- com.api.tests.PetTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
