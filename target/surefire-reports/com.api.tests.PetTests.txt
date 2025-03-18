@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.api.tests.PetTests
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.794 s - in com.api.tests.PetTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.23 s - in com.api.tests.PetTests
