@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.api.tests.PetTests" time="8.23" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.api.tests.PetTests" time="9.554" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\tools\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\geras\AppData\Local\Temp\surefire2950316782720338184\surefirebooter-20250318165946613_3.jar C:\Users\geras\AppData\Local\Temp\surefire2950316782720338184 2025-03-18T16-59-46_320-jvmRun1 surefire-20250318165946613_1tmp surefire_0-20250318165946613_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\geras\AppData\Local\Temp\surefire2507872397531784468\surefirebooter-20250319104102962_3.jar C:\Users\geras\AppData\Local\Temp\surefire2507872397531784468 2025-03-19T10-41-02_688-jvmRun1 surefire-20250319104102962_1tmp surefire_0-20250319104102962_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\MY FILES\Java course\API_Testing_Framework\target\test-classes;C:\MY FILES\Java course\API_Testing_Framework\target\classes;C:\Users\geras\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\geras\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\geras\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\geras\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\geras\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\geras\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\geras\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\geras\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\geras\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\geras\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\geras\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\geras\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\geras\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\geras\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\geras\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\geras\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\geras\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\geras\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\geras\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\geras\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\geras\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\geras\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\geras\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\geras\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\geras\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\geras\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\geras\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\geras\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\geras\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\geras\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\geras\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\geras\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\geras\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\geras\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\geras\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\geras\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\geras\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\geras\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\geras\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\geras\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\geras\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\geras\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\geras\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\geras\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\geras\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\geras\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\geras\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\geras\AppData\Local\Temp\surefire2950316782720338184\surefirebooter-20250318165946613_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\geras\AppData\Local\Temp\surefire2507872397531784468\surefirebooter-20250319104102962_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -61,22 +61,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testCreatePet" classname="com.api.tests.PetTests" time="3.883">
+  <testcase name="testCreatePet" classname="com.api.tests.PetTests" time="3.459">
     <system-err><![CDATA[[main] INFO com.api.tests.PetTests - Checking if pet with ID 9999 already exists.
 [main] INFO com.api.tests.PetTests - Pet with ID 9999 already exists. Deleting before test.
 [main] INFO com.api.tests.PetTests - Response body after creation: {"id":9999,"category":{"id":1,"name":"Dog"},"name":"Bobby","photoUrls":["https://example.com/dog.jpg"],"tags":[],"status":"available"}
 ]]></system-err>
   </testcase>
-  <testcase name="testGetPet" classname="com.api.tests.PetTests" time="1.839">
+  <testcase name="testGetPet" classname="com.api.tests.PetTests" time="1.246">
     <system-err><![CDATA[[main] INFO com.api.tests.PetTests - Requesting pet with ID: 9999
 ]]></system-err>
   </testcase>
-  <testcase name="testUpdatePet" classname="com.api.tests.PetTests" time="0.672">
-    <system-err><![CDATA[[main] INFO com.api.tests.PetTests - Response body after update: {"id":9999,"category":{"id":1,"name":"Dog"},"name":"BobbyUpdated","photoUrls":["https://example.com/dog-updated.jpg"],"tags":[],"status":"sold"}
-]]></system-err>
-  </testcase>
-  <testcase name="testDeletePet" classname="com.api.tests.PetTests" time="1.331">
-    <system-err><![CDATA[[main] INFO com.api.tests.PetTests - Pet with ID 9999 deleted successfully
+  <testcase name="testUpdatePet" classname="com.api.tests.PetTests" time="2.988"/>
+  <testcase name="testDeletePet" classname="com.api.tests.PetTests" time="1.334">
+    <system-err><![CDATA[[main] INFO com.api.tests.PetTests - Deleting pet with ID 9999
+[main] INFO com.api.tests.PetTests - Delete response: Pet deleted
+[main] INFO com.api.tests.PetTests - Verifying pet deletion...
+[main] INFO com.api.tests.PetTests - Attempt 1 - Get after delete: Status 404 | Response: Pet not found
 ]]></system-err>
   </testcase>
 </testsuite>
