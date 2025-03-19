@@ -23,6 +23,12 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Install Allure
+        run: |
+          sudo apt-add-repository universe
+          sudo apt-get update
+          sudo apt-get install -y allure
+
       - name: Cache Maven Dependencies
         uses: actions/cache@v3
         with:
@@ -30,14 +36,13 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-maven-
 
+      - name: Clean and Build
+        run: mvn clean install -DskipTests
+
       - name: Build and Test with Maven
         run: mvn clean test
-
-      - name: Install Allure
-        run: |
-          sudo apt-add-repository universe
-          sudo apt-get update
-          sudo apt-get install -y allure
+        env:
+          MAVEN_OPTS: "-Xmx1024m"
 
       - name: Generate Allure Report
         run: mvn allure:aggregate
