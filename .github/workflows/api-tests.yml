@@ -33,19 +33,23 @@ jobs:
       - name: Build and Test with Maven
         run: mvn clean test
 
+      - name: Install Allure
+        run: |
+          sudo apt-add-repository universe
+          sudo apt-get update
+          sudo apt-get install -y allure
+
       - name: Generate Allure Report
         run: mvn allure:aggregate
 
       - name: Upload Allure Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: target/site/allure-report
 
       - name: Upload Test Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path: allure-results
-
-# Re-run CI
